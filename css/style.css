@@ -71,16 +71,13 @@ main .ms-sidebar .ms-sidebar-menu {
     padding: 0;
 }
 
-
-
-
-
-
-
-
+/* Contenuto principale */
 
 .ms-main-content {
     flex-grow: 1; 
-    background-color: aquamarine;
     height: 100%;
+}
+
+.ms-upper-main-content {
+    background-color: #1b72e8;
 }

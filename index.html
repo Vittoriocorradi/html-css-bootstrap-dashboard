@@ -28,18 +28,23 @@
     <header>
         <div class="container-fluid">
             <div class="d-flex align-items-center">
+                <!-- Logo -->
                 <div class="ms-logo">
                     <a href="#">
                         <img src="img/logo.svg" alt="Logo Grande" class="ms-logo-big d-none d-lg-block">
                         <img src="img/mobile-logo.png" alt="Logo Mobile" class="ms-logo-small d-lg-none">
                     </a>
                 </div>
+                <!-- /Logo -->
+                <!-- Barra di ricerca -->
                 <div class="flex-grow-1 mx-4">
                     <div class="input-group">
                         <button class="btn btn-outline-dark bg-dark-subtle border-0" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
                         <input type="text" class="form-control bg-dark-subtle border-0" placeholder="Prova a cercare: lezioni di laravel">
                     </div>                      
                 </div>
+                <!-- /Barra di ricerca -->
+                <!-- Menù Header -->
                 <div class="d-flex ms-header-icons">
                     <a href="#"><i class="fa-solid fa-list-ul me-3 d-none d-lg-inline-block"></i></a>
                     <a href="#"><i class="fa-solid fa-circle-question me-3 d-none d-lg-inline-block"></i></a>
@@ -50,8 +55,8 @@
                         <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                         <li><a class="dropdown-item" href="#">Logout</a></li>
                     </ul>
-                    
                 </div>
+                <!-- /Menù Header -->
             </div>
         </div>
     </header>
@@ -60,6 +65,7 @@
     <!-- Main -->
     <main>
         <div class="ms-container-big d-flex">
+            <!-- Menù laterale -->
             <div class="ms-sidebar d-flex flex-column text-white">
                 <ul class="ms-sidebar-menu">
                     <li class="mb-2"><a href="#" class="p-3"><i class="fa-solid fa-house"></i><span class="d-none d-lg-inline ps-3">Home</span></a></li>
@@ -70,7 +76,17 @@
                     <a href="#" class="p-3"><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline ps-3">Admin</span></a>
                 </div>
             </div>
-            <div class="ms-main-content"></div>
+            <!-- /Menù laterale -->
+            <!-- Contenuto principale -->
+            <div class="ms-main-content">
+                <div class="container-fluid ms-upper-main-content">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-2 order-md-3">a</div>
+                        <div class="col-12 col-md-4 col-lg-6 order-md-1">b</div>
+                        <div class="col-12 col-md-4 col-lg-4 order-md-2">c</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <!-- /Main -->
