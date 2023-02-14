@@ -28,8 +28,13 @@
     <header>
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-1">logo</div>
-                <div class="col flex-grow-1 my-auto">
+                <div class="col-1 ms-logo">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="Logo Grande" class="ms-logo-big d-none d-lg-block">
+                        <img src="img/mobile-logo.png" alt="Logo Mobile" class="ms-logo-small d-lg-none">
+                    </a>
+                </div>
+                <div class="col flex-grow-1 ms-4">
                     <div class="input-group">
                         <button class="btn btn-outline-dark bg-dark-subtle border-0" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
                         <input type="text" class="form-control bg-dark-subtle border-0" placeholder="Prova a cercare: lezioni di laravel">

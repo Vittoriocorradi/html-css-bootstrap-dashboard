@@ -25,33 +25,19 @@ HEADER
 --------
 */
 
-/* header {
-    height: 4.375rem;
-}
-
-header > div {
-    height: 4.375rem;
-} */
-
 header .row {
     height: 4.375rem;
 }
 
-.ms-container-big {
-    height: calc(100vh - 4.375rem);
+header .ms-logo .ms-logo-big {
+    width: 7.5rem;
 }
 
-.ms-sidebar {
-    /* width: 20%; */
-    background-color: red;
-    height: 100%;
+header .ms-logo .ms-logo-small {
+    width: 3.125rem;
 }
 
-.ms-main-content {
-    flex-grow: 1; 
-    background-color: aquamarine;
-    height: 100%;
-}
+
 
 /*
 --------
@@ -70,3 +56,21 @@ main .ms-sidebar .ms-sidebar-menu {
     padding: 0;
 }
 
+
+
+
+.ms-container-big {
+    height: calc(100vh - 4.375rem);
+}
+
+.ms-sidebar {
+    /* width: 20%; */
+    background-color: red;
+    height: 100%;
+}
+
+.ms-main-content {
+    flex-grow: 1; 
+    background-color: aquamarine;
+    height: 100%;
+}
