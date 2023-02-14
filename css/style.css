@@ -78,6 +78,21 @@ main .ms-sidebar .ms-sidebar-menu {
     height: 100%;
 }
 
+/* Contenuto principale parte superiore */
+
 .ms-upper-main-content {
     background-color: #1b72e8;
+}
+
+.ms-upper-main-content i {
+    vertical-align: middle;
+}
+/*
+--------
+COMPONENTI
+--------
+*/
+
+.ms-bg-darkblue {
+    background-color: #165bba;
 }
