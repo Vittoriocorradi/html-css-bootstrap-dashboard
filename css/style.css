@@ -1,5 +1,26 @@
 /*
 --------
+TYPO
+--------
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+--------
+COMMON
+--------
+*/
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/*
+--------
 HEADER
 --------
 */
@@ -13,7 +34,7 @@ header {
 }
 
 .ms-sidebar {
-    width: 20%;
+    /* width: 20%; */
     background-color: red;
     height: 100%;
 }
@@ -23,3 +44,21 @@ header {
     background-color: aquamarine;
     height: 100%;
 }
+
+/*
+--------
+MAIN
+--------
+*/
+
+/* Sidebar */
+
+main .ms-sidebar {
+    padding: 1.875rem .625rem 1.875rem;
+}
+
+main .ms-sidebar .ms-sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
