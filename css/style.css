@@ -25,7 +25,15 @@ HEADER
 --------
 */
 
-header {
+/* header {
+    height: 4.375rem;
+}
+
+header > div {
+    height: 4.375rem;
+} */
+
+header .row {
     height: 4.375rem;
 }
 
