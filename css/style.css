@@ -53,10 +53,17 @@ MAIN
 --------
 */
 
+.ms-container-big {
+    height: calc(100vh - 4.375rem);
+}
+
 /* Sidebar */
 
 main .ms-sidebar {
     padding: 1.875rem .625rem 1.875rem;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    height: 100%;
 }
 
 main .ms-sidebar .ms-sidebar-menu {
@@ -67,15 +74,10 @@ main .ms-sidebar .ms-sidebar-menu {
 
 
 
-.ms-container-big {
-    height: calc(100vh - 4.375rem);
-}
 
-.ms-sidebar {
-    /* width: 20%; */
-    background-color: red;
-    height: 100%;
-}
+
+
+
 
 .ms-main-content {
     flex-grow: 1; 
