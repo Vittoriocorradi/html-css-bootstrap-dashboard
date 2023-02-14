@@ -25,7 +25,7 @@ HEADER
 --------
 */
 
-header .row {
+header > div > div {
     height: 4.375rem;
 }
 
@@ -35,6 +35,14 @@ header .ms-logo .ms-logo-big {
 
 header .ms-logo .ms-logo-small {
     width: 3.125rem;
+}
+
+header .ms-header-icons a {
+    color: #5b5858
+}
+
+header .ms-header-icons .ms-bell {
+    color: #ff8f00;
 }
 
 
