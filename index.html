@@ -235,7 +235,7 @@
                                     <h2 class="fs-4">F.A.Q.</h2>
                                 </div>
                                 <div class="card-body">
-                                    <div class="accordion" id="accordionExample">
+                                    <div class="accordion accordion-flush" id="accordionExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingOne">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -338,71 +338,69 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <form method="get"></form>
-                <div class="row">
-                    <div class="col-6">
-                        <label for="inputname" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="inputname">
+            <form class="row" method="get">
+                <div class="col-12 col-md-6 mb-3">
+                    <label for="inputname" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="inputname">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <label for="inputsurname" class="form-label">Cognome</label>
+                    <input type="text" class="form-control" id="inputsurname">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="inputemail1" class="form-label">Email</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" class="form-control" id="inputemail1" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div class="col-6">
-                        <label for="inputsurname" class="form-label">Cognome</label>
-                        <input type="text" class="form-control" id="inputsurname">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <label for="inputpassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputpassword1">
+                </div>
+                <div class="col-6 d-none d-lg-inline-block">
+                    <label for="inputemail2" class="form-label">Indirizzo Email</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" class="form-control" id="inputemail2" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div class="col-6">
-                        <label for="inputemail1" class="form-label">Email</label>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="email" class="form-control" id="inputemail1" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <label for="inputpassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputpassword1">
-                    </div>
-                    <div class="col-6">
-                        <label for="inputemail2" class="form-label">Indirizzo Email</label>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="email" class="form-control" id="inputemail2" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <label for="inputpassword2" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputpassword2">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputaddress" class="form-label">Indirizzo</label>
-                        <input type="text" class="form-control" id="inputaddress">
-                    </div>
-                    <div class="col-6">
-                        <label for="inputcity" class="form-label">Indirizzo</label>
-                        <input type="text" class="form-control" id="inputcity">
-                    </div>
-                    <div class="col-4">
-                        <label for="inputcountry" class="form-label">Stato</label>
-                        <select class="form-select mb-3" id="inputcountry" aria-label=".form-select-lg example">
-                            <option selected>Scegli...</option>
-                            <option value="1">Italia</option>
-                            <option value="2">Australia</option>
-                            <option value="3">Danimarca</option>
-                        </select>             
-                    </div>
-                    <div class="col-2">
-                        <label for="inputzip" class="form-label">CAP</label>
-                        <input type="text" class="form-control" id="inputzip">
-                    </div>
-                    <div class="col-12 mb-4">
-                        <label for="formFile" class="form-label">Foto</label>
-                        <input class="form-control" type="file" id="formFile" placeholder="Nessun file selezionato">
-                    </div>
-                    <div class="col-12 mb-4">
-                        <input type="checkbox" id="inputcheckbox">
-                        <label for="inputcheckbox">Seleziona per proseguire</label>
-                    </div>
-                    <div class="col">
-                        <button class="btn btn-primary" type="submit">Salva</button>
-                        <input class="btn btn-warning" type="reset" value="Svuota">
-                    </div>
+                </div>
+                <div class="col-6 d-none d-lg-block">
+                    <label for="inputpassword2" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputpassword2">
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="inputaddress" class="form-label">Indirizzo</label>
+                    <input type="text" class="form-control" id="inputaddress">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <label for="inputcity" class="form-label">Indirizzo</label>
+                    <input type="text" class="form-control" id="inputcity">
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <label for="inputcountry" class="form-label">Stato</label>
+                    <select class="form-select mb-3" id="inputcountry" aria-label=".form-select-lg example">
+                        <option selected>Scegli...</option>
+                        <option value="1">Italia</option>
+                        <option value="2">Australia</option>
+                        <option value="3">Danimarca</option>
+                    </select>             
+                </div>
+                <div class="col-12 col-md-2 mb-3">
+                    <label for="inputzip" class="form-label">CAP</label>
+                    <input type="text" class="form-control" id="inputzip">
+                </div>
+                <div class="col-12 mb-4">
+                    <label for="formFile" class="form-label">Foto</label>
+                    <input class="form-control" type="file" id="formFile" placeholder="Nessun file selezionato">
+                </div>
+                <div class="col-12 mb-4">
+                    <input type="checkbox" id="inputcheckbox">
+                    <label for="inputcheckbox">Seleziona per proseguire</label>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" type="submit">Salva</button>
+                    <input class="btn btn-warning" type="reset" value="Svuota">
                 </div>
             </form>
         </div>
