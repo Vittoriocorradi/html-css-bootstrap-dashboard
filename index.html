@@ -27,9 +27,9 @@
     <!-- Header -->
     <header>
         <div class="container-fluid">
-            <div class="d-flex align-items-center">
+            <div class="row align-items-center">
                 <!-- Logo -->
-                <div class="ms-logo">
+                <div class="col-auto ms-logo">
                     <a href="#">
                         <img src="img/logo.svg" alt="Logo Grande" class="ms-logo-big d-none d-lg-block">
                         <img src="img/mobile-logo.png" alt="Logo Mobile" class="ms-logo-small d-lg-none">
@@ -37,7 +37,7 @@
                 </div>
                 <!-- /Logo -->
                 <!-- Barra di ricerca -->
-                <div class="flex-grow-1 mx-4">
+                <div class="col mx-1">
                     <div class="input-group">
                         <button class="btn btn-outline-dark bg-dark-subtle border-0" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
                         <input type="text" class="form-control bg-dark-subtle border-0" placeholder="Prova a cercare: lezioni di laravel">
@@ -45,17 +45,19 @@
                 </div>
                 <!-- /Barra di ricerca -->
                 <!-- Menù Header -->
-                <div class="d-flex ms-header-icons">
-                    <a href="#"><i class="fa-solid fa-list-ul me-3 d-none d-lg-inline-block"></i></a>
-                    <a href="#"><i class="fa-solid fa-circle-question me-3 d-none d-lg-inline-block"></i></a>
-                    <a href="#"><i class="fa-solid fa-ellipsis-vertical me-3 d-none d-lg-inline-block"></i></a>
-                    <a href="#" data-bs-toggle="dropdown" class="ms-bell"><i class="fa-solid fa-bell"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Profilo</a></li>
-                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                        <li><a class="dropdown-item" href="#">Logout</a></li>
-                    </ul>
-                </div>
+                <ul class="col-auto d-flex ms-header-icons list-unstyled m-0">
+                    <li><a href="#"><i class="fa-solid fa-list-ul me-3 d-none d-lg-inline-block"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-question me-3 d-none d-lg-inline-block"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-ellipsis-vertical me-3 d-none d-lg-inline-block"></i></a></li>
+                    <li>
+                        <a href="#" data-bs-toggle="dropdown" class="ms-bell"><i class="fa-solid fa-bell"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
                 <!-- /Menù Header -->
             </div>
         </div>

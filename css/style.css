@@ -37,6 +37,10 @@ header .ms-logo .ms-logo-small {
     width: 3.125rem;
 }
 
+header .form-control:focus {
+    box-shadow: none;
+}
+
 header .ms-header-icons a {
     color: #5b5858
 }
