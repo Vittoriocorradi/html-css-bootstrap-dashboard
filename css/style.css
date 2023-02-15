@@ -10,12 +10,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*
---------
-COMMON
---------
-*/
-
 a {
     text-decoration: none;
     color: currentColor;
@@ -48,15 +42,18 @@ header .form-control:focus {
     box-shadow: none;
 }
 
-header .ms-header-icons a {
+header .ms-header-icons li {
     color: #5b5858
+}
+
+header .ms-header-icons > li:not(:last-child):hover {
+    color: #000;
+    transform: scale(1.15);
 }
 
 header .ms-header-icons .ms-bell {
     color: #ff8f00;
 }
-
-
 
 /*
 --------
@@ -83,7 +80,7 @@ main .ms-sidebar a {
 }
 
 main .ms-sidebar a:hover {
-    background-color: rgba(200, 200, 200, 0.5);
+    background-color: rgba(225, 225, 225, 0.6);
 }
 
 /* Contenuto principale */
@@ -126,9 +123,13 @@ COMPONENTI
 --------
 */
 
+/* Background badge main superiore */
+
 .ms-bg-darkblue {
     background-color: #165bba;
 }
+
+/* Media query larghezza offcanvas */
 
 @media screen and (min-width:48rem) {
     .offcanvas.show:not(.hiding),
