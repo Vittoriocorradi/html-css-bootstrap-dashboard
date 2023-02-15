@@ -124,3 +124,10 @@ COMPONENTI
 .ms-bg-darkblue {
     background-color: #165bba;
 }
+
+@media screen and (min-width:48rem) {
+    .offcanvas.show:not(.hiding),
+    .offcanvas.showing {
+        width: 50rem;
+    }
+}
