@@ -25,7 +25,7 @@
 <body>
 
     <!-- Header -->
-    <header>
+    <header class="d-flex align-items-center">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <!-- Logo -->
@@ -69,14 +69,14 @@
         <div class="ms-container-big d-flex">
             <!-- Menù laterale -->
             <div class="ms-sidebar d-flex flex-column text-white flex-shrink-0">
-                <ul class="ms-sidebar-menu">
-                    <li class="mb-2"><a href="#" class="p-3"><i class="fa-solid fa-house"></i><span class="d-none d-lg-inline ps-3">Home</span></a></li>
-                    <li class="mb-2"><a href="#" class="p-3"><i class="fa-solid fa-chart-simple fa-lg"></i><span class="d-none d-lg-inline ps-3">Stats</span></a></li>
-                    <li class="mb-2"><a href="#" class="p-3"><i class="fa-solid fa-signal"></i><span class="d-none d-lg-inline ps-3">Signals</span></a></li>
+                <ul class="ms-sidebar-menu list-unstyled">
+                    <li><a href="#" class="px-3 py-2"><i class="fa-solid fa-house"></i><span class="d-none d-lg-inline ps-3">Home</span></a></li>
+                    <li><a href="#" class="px-3 py-2"><i class="fa-solid fa-chart-simple fa-lg"></i><span class="d-none d-lg-inline ps-3">Stats</span></a></li>
+                    <li><a href="#" class="px-3 py-2"><i class="fa-solid fa-signal"></i><span class="d-none d-lg-inline ps-3">Signals</span></a></li>
                 </ul>
-                <div class="mt-auto">
-                    <a href="#" class="p-3"><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline ps-3">Admin</span></a>
-                </div>
+                <ul class="mt-auto mb-0 list-unstyled">
+                    <li><a href="#" class="px-3 py-2"><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline ps-3">Admin</span></a></li>
+                </ul>
             </div>
             <!-- /Menù laterale -->
             <!-- Contenuto principale -->
@@ -329,6 +329,7 @@
                 </div>
                 <!-- /Parte inferiore contenuto principale -->
             </div>
+            <!-- /Contenuto principale -->
         </div>
     </main>
     <!-- /Main -->

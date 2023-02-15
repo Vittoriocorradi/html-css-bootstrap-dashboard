@@ -25,8 +25,13 @@ HEADER
 --------
 */
 
-header > div > div {
+header {
     height: 4.375rem;
+    background-color: #f8f9fa;
+}
+
+header .row {
+    background-color: #fff;
 }
 
 header .ms-logo .ms-logo-big {
@@ -64,16 +69,20 @@ MAIN
 /* Sidebar */
 
 main .ms-sidebar {
-    padding: 1.875rem .9375rem 1.875rem .625rem;
+    padding: 1.875rem .9375rem 1.5625rem .625rem;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
     height: 100%;
 }
 
-main .ms-sidebar .ms-sidebar-menu {
-    list-style-type: none;
-    padding: 0;
-}   
+main .ms-sidebar a {
+    width: 100%;
+    display: inline-block;
+}
+
+main .ms-sidebar a:hover {
+    background-color: rgba(200, 200, 200, 0.5);
+}
 
 /* Contenuto principale */
 
