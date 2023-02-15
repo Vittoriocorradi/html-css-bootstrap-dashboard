@@ -60,7 +60,7 @@ MAIN
 /* Sidebar */
 
 main .ms-sidebar {
-    padding: 1.875rem .625rem 1.875rem;
+    padding: 1.875rem .9375rem 1.875rem .625rem;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
     height: 100%;
@@ -69,13 +69,14 @@ main .ms-sidebar {
 main .ms-sidebar .ms-sidebar-menu {
     list-style-type: none;
     padding: 0;
-}
+}   
 
 /* Contenuto principale */
 
 .ms-main-content {
     flex-grow: 1; 
     height: 100%;
+    overflow-y: auto;
 }
 
 /* Contenuto principale parte superiore */
@@ -86,6 +87,11 @@ main .ms-sidebar .ms-sidebar-menu {
 
 .ms-upper-main-content i {
     vertical-align: middle;
+}
+
+.ms-upper-main-content button {
+    border: 1px solid #fff;
+    font-size: 1.2rem;
 }
 /*
 --------
