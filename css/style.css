@@ -1,3 +1,5 @@
+@import url('components/bottone-tabella.css');
+
 /*
 --------
 TYPO
@@ -116,16 +118,6 @@ main .ms-sidebar a:hover {
 
 .ms-lower-main-content .table tbody img {
     width: 1.875rem;
-    background-color: inherit;
-}
-
-.ms-lower-main-content .table tbody i {
-    width: 1.875rem;
-    height: 1.875rem;
-    line-height: 1.875rem;
-    color: #6c757d;
-    border: 1px solid #6c757d;
-    border-radius: .3125rem;
 }
 
 /*
@@ -144,3 +136,5 @@ COMPONENTI
         width: 50rem;
     }
 }
+
+

@@ -1,0 +1,15 @@
+.ms-lower-main-content .table tbody i {
+    width: 1.875rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: .3125rem;
+    transition: background-color 0.1s linear, color 0.1s linear;
+}
+
+.ms-lower-main-content .table tbody i:hover {
+    color: #fff;
+    background-color: #6c757d;
+    cursor: pointer;
+}
